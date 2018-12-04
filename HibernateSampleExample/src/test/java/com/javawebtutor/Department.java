@@ -1,8 +1,11 @@
 package com.javawebtutor;
 
+import java.util.List;
+
 public class Department {
 	
 	private String name;
+	private List<Employee> employee;
 
 	public Department(String name) {
 		super();
